@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T06:59:08.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="pkk7VSiV9z_k26e_onNe" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T07:00:32.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="CjRi4BASnIjkoW0erMvr" version="20.8.20" type="github">
   <diagram name="第 1 页" id="fEZX0kXtipA56TciqK5S">
     <mxGraphModel dx="1018" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -147,6 +147,18 @@
         </mxCell>
         <mxCell id="gz_ho0c8wg7XdhOyV5uj-36" value="kvm_hyp_mappings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="gz_ho0c8wg7XdhOyV5uj-38">
           <mxGeometry y="122" width="200" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gz_ho0c8wg7XdhOyV5uj-43" value="设置timer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1030" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz_ho0c8wg7XdhOyV5uj-44" value="设置pmu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1080" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz_ho0c8wg7XdhOyV5uj-45" value="设置vgic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1120" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz_ho0c8wg7XdhOyV5uj-46" value="创建EL1和EL2的映射" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1159.5" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
