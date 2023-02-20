@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T08:38:36.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="kP5pDy7SIzB4-glVb5d-" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T08:39:21.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="AeeyeAFAs3DjprvnVkrD" version="20.8.20" type="github">
   <diagram name="第 1 页" id="fEZX0kXtipA56TciqK5S">
     <mxGraphModel dx="1744" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -291,9 +291,6 @@
         <mxCell id="BMl2VS96FbHSsvdATmZK-6" value="ret = handle_rme_exit(vcpu, ret);" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="527.51" y="2970" width="265" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BMl2VS96FbHSsvdATmZK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=18;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="BMl2VS96FbHSsvdATmZK-15" target="BMl2VS96FbHSsvdATmZK-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="BMl2VS96FbHSsvdATmZK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=18;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="BMl2VS96FbHSsvdATmZK-15" target="BMl2VS96FbHSsvdATmZK-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -304,10 +301,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BMl2VS96FbHSsvdATmZK-15" value="kvm_arch_vcpu_ioctl_run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="365" y="3440" width="240" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BMl2VS96FbHSsvdATmZK-16" value="kvm_vcpu_first_run_init" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="725" y="3220" width="240" height="40" as="geometry" />
+          <mxGeometry x="380" y="3520" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BMl2VS96FbHSsvdATmZK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=18;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="BMl2VS96FbHSsvdATmZK-18" target="BMl2VS96FbHSsvdATmZK-19">
           <mxGeometry relative="1" as="geometry" />
