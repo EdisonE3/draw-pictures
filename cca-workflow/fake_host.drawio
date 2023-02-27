@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T02:32:57.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.56" etag="TkCrMlvniCPDkUnakrls" version="20.8.23" type="github"><diagram name="第 1 页" id="_ft1_ogU57z6ifeGg3HV">ddFNE4IgEAbgX8Pd2KbsbFaXTh46M7IJM+g6SKP169MBM8Y6sTz78jHAIKuHsxWtupJEw3giBwZHxvlmt92PwyRPL+ku9VBZLUNogUK/MGAS9KEldlHQERmn2xhLahosXWTCWurj2J1MfGorKlxBUQqz1puWTnnlAIelcUFdqXA0QBJuXos5HaBTQlL/RZAzyCyR81U9ZGim15sfxq87/el+bmaxcT8WjMWy9ziJvgjyNw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-27T02:38:50.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.56" etag="RHyhJJKkeNht_BrQHc45" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="_ft1_ogU57z6ifeGg3HV">
+    <mxGraphModel dx="1411" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;RMM (arch-independent)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-2" value="slot buffer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="705" y="330" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="470" width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-4" value="Hardware emulation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="650" y="620" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-6" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;sysreg emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="520" y="510" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-7" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;High VA emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="705" y="510" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-8" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Granule (NS memory) emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="890" y="510" width="150" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
