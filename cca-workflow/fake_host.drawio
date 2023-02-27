@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T02:41:53.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.56" etag="MJHSGbok1NyPveKkNUUd" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T02:43:13.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.56" etag="VOIP9ea9MIn-y39XAVra" version="20.8.23" type="github">
   <diagram name="第 1 页" id="_ft1_ogU57z6ifeGg3HV">
-    <mxGraphModel dx="1411" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="806" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,24 +9,6 @@
         </mxCell>
         <mxCell id="WEMd-4f8y04v5PAI4ZZ1-2" value="slot buffer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="705" y="330" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="470" width="560" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-4" value="Hardware emulation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="650" y="620" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-6" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;sysreg emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="520" y="510" width="150" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=21;startArrow=classic;startFill=1;" edge="1" parent="1" source="WEMd-4f8y04v5PAI4ZZ1-7" target="WEMd-4f8y04v5PAI4ZZ1-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-7" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;High VA emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="705" y="510" width="150" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-8" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Granule (NS memory) emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="890" y="510" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WEMd-4f8y04v5PAI4ZZ1-13" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="1060" y="280" width="130" height="50" as="geometry" />
@@ -51,6 +33,33 @@
         </mxCell>
         <mxCell id="WEMd-4f8y04v5PAI4ZZ1-20" value="EL3 (monitor) entry/exit emulation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="175" y="255" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;fontSize=25;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="545" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="500" y="490" width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WEMd-4f8y04v5PAI4ZZ1-25">
+          <mxGeometry width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-4" value="Hardware emulation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="WEMd-4f8y04v5PAI4ZZ1-25">
+          <mxGeometry x="150" y="150" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-6" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;sysreg emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WEMd-4f8y04v5PAI4ZZ1-25">
+          <mxGeometry x="20" y="40" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-7" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;High VA emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WEMd-4f8y04v5PAI4ZZ1-25">
+          <mxGeometry x="205" y="40" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-8" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Granule (NS memory) emulation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WEMd-4f8y04v5PAI4ZZ1-25">
+          <mxGeometry x="390" y="40" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=25;startArrow=classic;startFill=1;" edge="1" parent="1" source="WEMd-4f8y04v5PAI4ZZ1-7" target="WEMd-4f8y04v5PAI4ZZ1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEMd-4f8y04v5PAI4ZZ1-27" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;fontSize=25;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="915" y="410" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
