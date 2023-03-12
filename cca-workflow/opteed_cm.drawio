@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T03:14:08.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="rTtVboICdCwetLrT0X5r" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-12T03:15:26.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="n8fY0yR94vH-x_YqE9nb" version="21.0.2" type="github">
   <diagram name="第 1 页" id="yn682Bc3vULyYWUelcPQ">
     <mxGraphModel dx="1411" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -42,6 +42,12 @@
         </mxCell>
         <mxCell id="uO_o5AgnxEnByf0xcIqo-13" value="其实我觉得这部分不要也没什么关系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="130" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uO_o5AgnxEnByf0xcIqo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uO_o5AgnxEnByf0xcIqo-15" target="uO_o5AgnxEnByf0xcIqo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uO_o5AgnxEnByf0xcIqo-15" value="这部分主要是对ep_info做初始化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="390" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
