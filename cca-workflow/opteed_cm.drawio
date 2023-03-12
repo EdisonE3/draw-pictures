@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T02:21:14.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="b0cXabSTl1m1ekgHbc9O" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-12T02:23:36.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="NtAJNb0PRKBEV2Wehy5X" version="21.0.2" type="github">
   <diagram name="第 1 页" id="yn682Bc3vULyYWUelcPQ">
     <mxGraphModel dx="1411" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -7,17 +7,23 @@
         <mxCell id="uO_o5AgnxEnByf0xcIqo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uO_o5AgnxEnByf0xcIqo-1" target="uO_o5AgnxEnByf0xcIqo-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uO_o5AgnxEnByf0xcIqo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uO_o5AgnxEnByf0xcIqo-1" target="uO_o5AgnxEnByf0xcIqo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uO_o5AgnxEnByf0xcIqo-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;optee_setup()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="280" width="160" height="40" as="geometry" />
+          <mxGeometry x="320" y="320" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uO_o5AgnxEnByf0xcIqo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uO_o5AgnxEnByf0xcIqo-2" target="uO_o5AgnxEnByf0xcIqo-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uO_o5AgnxEnByf0xcIqo-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;cm_set_context(cm_get_context(NON_SECURE), REALM)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="200" width="530" height="40" as="geometry" />
+          <mxGeometry x="560" y="200" width="520" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uO_o5AgnxEnByf0xcIqo-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;set_cpu_data(cpu_context[2], context)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="200" width="350" height="40" as="geometry" />
+          <mxGeometry x="1160" y="200" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uO_o5AgnxEnByf0xcIqo-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;bl31_plat_get_next_image_ep_info(REALM)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="520" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
